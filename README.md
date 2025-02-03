@@ -55,3 +55,25 @@ The backend integrates the GPT-3.5 Turbo API for sophisticated analysis of user 
    cd highlander-health
 
 2. Set Up the Virtual Environment:
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+3. Install Dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+
+4. Configure Environment Variables:
+
+   ```bash
+   GPT_API_KEY=your_api_key_here
+   FLASK_APP=app.py
+   FLASK_ENV=development
+
+5. Run the Application:
+
+   ```bash
+   flask run
+
