@@ -53,3 +53,5 @@ The backend integrates the GPT-3.5 Turbo API for sophisticated analysis of user 
    ```bash
    git clone https://github.com/yourusername/highlander-health.git
    cd highlander-health
+
+2. Set Up the Virtual Environment:
